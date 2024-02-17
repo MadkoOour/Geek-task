@@ -187,8 +187,19 @@ button.apply {
 
 }
 
-@media (max-width:800px) {
+@media (max-width:620px) {
     .filter{
-        margin: 0 1.5rem 0 10rem;
+        width: 80%;
+        margin: 0 0.5rem 0 auto;
+    }
+
+    button.apply {
+        background-color: #53ACFF;
+        width: 5rem;
+        height: 2rem;
+        margin: 0.5rem auto;
+        border-radius: 6px;
+        font-size: 10px;
+        font-weight: 600;
     }
 }

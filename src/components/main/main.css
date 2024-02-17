@@ -112,7 +112,7 @@ article .rectangle {
 
 article .pannel {
     color: #fff;
-    padding: 1.5rem 4rem;
+    padding: 3% 5%;
     border-radius: 0 0 8px 8px;
 }
 
@@ -169,11 +169,34 @@ article .pannel a {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:620px) {
+    main .top-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-bottom: 2.5rem;
+    }
+    main .top-section .big-heading{
+        margin-left: 1rem;
+    }
+
+    main .top-section button{
+        margin-bottom: 1.5rem;
+    }
+
+    main .top-section i{
+        float: right;
+
+    }
+
     p,span{
         font-size: 10px;
     }
     article .rectangle {
         padding: 0.5rem 0;
+    }
+
+    article .rectangle svg{
+        margin-right: 0;
     }
 }

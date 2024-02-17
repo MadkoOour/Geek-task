@@ -51,7 +51,7 @@ a.comming-soon:hover i {
     box-shadow: 0 0 10px #53ACFF inset;
     filter: blur(10px);
 }
-  
+
 
 li.logo img {
     width: 40px;
@@ -151,7 +151,7 @@ nav:hover .nav-item {
     display: inline-block;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     font-weight: 600;
 }
 
@@ -167,4 +167,11 @@ nav:hover footer {
     bottom: 35px;
     left: 20px;
     display: inline-block;
+}
+
+@media (max-width:700px){
+    nav{
+        left: -10px;
+        width: 15%;
+    }
 }

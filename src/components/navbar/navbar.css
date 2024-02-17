@@ -1,0 +1,170 @@
+/***** Normal State *****/
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 7px;
+    height: 100%;
+    background-color: #181818;
+    overflow: hidden;
+    width: 90px;
+    transition: width 0.2s linear;
+    z-index: 5;
+}
+
+nav a {
+    position: relative;
+    color: rgba(255, 255, 255, 0.188);
+    display: table;
+    margin: 20px 5px;
+    width: 180px;
+    transition: 0.2s;
+}
+
+a.active {
+    color: #fff;
+}
+
+/***** Comming soon *****/
+a.comming-soon::after {
+    content: "Coming Soon";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+a.comming-soon:hover::after {
+    opacity: 1;
+}
+
+a.comming-soon:hover .nav-item,
+a.comming-soon:hover i {
+    box-shadow: 0 0 10px #53ACFF inset;
+    filter: blur(10px);
+}
+  
+
+li.logo img {
+    width: 40px;
+    height: 40px;
+    transform: scale(5);
+    position: relative;
+    left: 10px;
+    top: 5px;
+    margin-bottom: 1rem;
+    transition: all 0.2s;
+}
+
+nav:hover li.logo img {
+    transform: scale(10);
+    position: relative;
+    left: 55px;
+    top: 10px;
+    margin-bottom: 3rem;
+}
+
+nav .fa-solid {
+    font-size: 1.5rem;
+    position: relative;
+    width: 17.73px;
+    height: 17.73px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.nav-item {
+    transition: 0.2s;
+    font-weight: 400;
+    display: none;
+}
+
+li a.profile {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    transition: 0.2s;
+}
+
+a.profile .profile-img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    left: 12px;
+    transition: 0.2s;
+}
+
+a.profile .info {
+    display: none;
+    margin-left: 25px;
+    position: relative;
+    top: -3px;
+    transition: 0.2s;
+}
+
+a.profile .info .title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+a.profile .info .sub-title {
+    color: #979797;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+footer {
+    position: absolute;
+    color: #424242;
+    display: none;
+    transition: 0.2s;
+}
+
+/***** Hover State *****/
+
+a:hover {
+    color: #53ACFF;
+}
+
+
+nav:hover {
+    width: 180px;
+    transition: all 0.2s linear;
+    border-radius: 8px;
+}
+
+nav:hover .fa-solid {
+    font-size: 1.4rem;
+}
+
+nav:hover .nav-item {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.nav-item:hover{
+    font-weight: 600;
+}
+
+nav:hover li a.profile {
+    bottom: 50px;
+}
+
+nav:hover a.profile .info {
+    display: inline-block;
+}
+
+nav:hover footer {
+    bottom: 35px;
+    left: 20px;
+    display: inline-block;
+}

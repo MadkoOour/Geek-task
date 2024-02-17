@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Geek-task/static/css/main.a5d96c1e.css",
+    "main.css": "/Geek-task/static/css/main.cf895076.css",
     "main.js": "/Geek-task/static/js/main.b3fa2039.js",
     "static/js/592.c426d536.chunk.js": "/Geek-task/static/js/592.c426d536.chunk.js",
     "static/media/Financials.svg": "/Geek-task/static/media/Financials.f4f3653cc767a3bfb60c0aa74245e21e.svg",
@@ -15,12 +15,12 @@
     "static/media/Industrials.svg": "/Geek-task/static/media/Industrials.df755ac64664a3f7e2752e75610d361d.svg",
     "static/media/ConsumerDiscretionary.svg": "/Geek-task/static/media/ConsumerDiscretionary.f2c37f0e6737800cf2c33a056048ec8b.svg",
     "index.html": "/Geek-task/index.html",
-    "main.a5d96c1e.css.map": "/Geek-task/static/css/main.a5d96c1e.css.map",
+    "main.cf895076.css.map": "/Geek-task/static/css/main.cf895076.css.map",
     "main.b3fa2039.js.map": "/Geek-task/static/js/main.b3fa2039.js.map",
     "592.c426d536.chunk.js.map": "/Geek-task/static/js/592.c426d536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5d96c1e.css",
+    "static/css/main.cf895076.css",
     "static/js/main.b3fa2039.js"
   ]
 }

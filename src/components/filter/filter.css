@@ -103,7 +103,7 @@
 
 .filter .radios,
 .filter .options {
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 1rem;
 }
 

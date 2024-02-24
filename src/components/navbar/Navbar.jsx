@@ -16,31 +16,31 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="/#" className="active">
+          <a href="" className="active">
             <i className="fa-solid fa-graduation-cap"></i>
             <span className="nav-item">Training</span>
           </a>
         </li>
         <li>
-          <a className="comming-soon" href="/#">
+          <a className="comming-soon" href="">
             <i className="fa-solid fa-gears"></i>
             <span className="nav-item">Automation</span>
           </a>
         </li>
         <li>
-          <a className="comming-soon" href="/#">
+          <a className="comming-soon" href="">
             <i className="fa-solid fa-folder-open"></i>
             <span className="nav-item">Portfolio</span>
           </a>
         </li>
         <li>
-          <a className="comming-soon" href="/#">
+          <a className="comming-soon" href="">
             <i className="fa-solid fa-money-bill-trend-up"></i>
             <span className="nav-item">Trading</span>
           </a>
         </li>
         <li>
-          <a className="profile" href="/#">
+          <a className="profile" href="">
             <img className="profile-img" src="./images/madkour.png" alt="" />
             <div className="info">
                 <h3 className="title">Moni Roy</h3>

@@ -171,10 +171,10 @@ function Main() {
                   <span>${ele.name}</span> at <span>${ele.price} B</span>
                 </p>
                 <p className="bottom">
-                  This is an <a href="/#">arbitrage opportunity</a>, with the
+                  This is an <a href="">arbitrage opportunity</a>, with the
                   max gain being %X if the deal closes, but the possible risk is
                   %Y if the deal fails, If the deal success is % and therefore
-                  the recommended play is <a href="/#">long/short</a> $ABC
+                  the recommended play is <a href="">long/short</a> $ABC
                 </p>
               </div>
             </article>
